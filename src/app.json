@@ -1,0 +1,36 @@
+{"pages": [
+  
+  "pages/index/main",
+  "pages/choose/main",
+  "pages/courseDetail/main",
+    
+    "pages/mine/main"
+    
+    
+],
+ "window":{
+    "navigationBarBackgroundColor" : "#333"
+
+ },
+ "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "pagePath": "pages/choose/main",
+      "text": "选择课程",
+      "iconPath":"static/images/course.png",
+      "selectedIconPath": "static/images/course1.png"
+    }, {
+      "pagePath": "pages/mine/main",
+      "text": "我的课程",
+      "iconPath":"static/images/mine.png",
+      "selectedIconPath": "static/images/mine1.png"
+    }],
+   
+      "position": "bottom"
+    }
+  
+}
